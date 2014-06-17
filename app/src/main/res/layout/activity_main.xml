@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sum.app.MainActivity"
+    android:background="#1221ff">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Your total is 0"
+        android:textSize="45dp"
+        android:gravity="top"
+        android:textColor="#000000"
+        android:id="@+id/text"></TextView>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:text="Add one"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/aAdd"
+        android:layout_marginTop="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/bSub"
+        android:layout_alignStart="@+id/bSub"></Button>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFF00"
+        android:text="Subtract one"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/bSub"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/aAdd"
+        android:layout_centerHorizontal="true"></Button>
+
+
+</RelativeLayout>
